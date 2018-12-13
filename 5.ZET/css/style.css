@@ -1,0 +1,379 @@
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+	font-family: 'Oswald';
+	font-weight: 300;
+	font-size: 16px;
+	color: #707070;
+	min-width: 320px;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 30px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-weight: 400;
+	color: #515151;
+	text-transform: uppercase;
+}
+
+hr {
+	background: #303944;
+	height: 3px;
+	width: 140px;
+}
+
+.header {
+	background: url(../img/bghead.png) center center;
+	height: 100vh;
+	background-size: cover;
+	position: relative;
+}
+
+.menu-top .nav-link {
+	text-transform: uppercase;
+	color: #fff !important;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.menu-top {
+	background: rgba(19, 19, 22, 0.7);
+}
+
+.menu-top .nav-item {
+	list-style: circle;
+	color: #fff;
+	margin: 0 12px;
+}
+
+.menu-top .nav-link:hover {
+	color: #374197 !important;
+}
+
+.menu-top .nav-item:first-child {
+	list-style: none;
+}
+.menu-top .nav-link::after{
+	content: "";
+	display: block;
+	height: 2px;
+	background: #374197;
+	width: 0;
+	transition: 1s;
+	margin: auto;
+}
+.menu-top .nav-link:hover::after{
+	width: 100%;
+}
+.title h1 {
+	font-weight: 700;
+	font-size: 65px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.title p {
+	font-weight: 400;
+	font-size: 17px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.title .btn {
+	background: #303944;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 17px;
+	border-radius: 40%;
+	padding: 12px 50px;
+	color: #fbfbfb;
+}
+
+.title {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 40%;
+}
+.service {
+	padding-top: 80px;
+	padding-bottom: 50px;
+	background: #f5f5f5;
+}
+.service .circle {
+	width: 120px;
+	height: 120px;
+	background: #303944;
+	border-radius: 50%;
+	margin: auto;
+	color: #fff;
+	text-transform: uppercase;
+}
+.service .circle i {
+	width: 100px !important;
+	font-size: 65px;
+	line-height: 125px;
+}
+.service h4{
+	text-transform: uppercase;
+	margin-top: 10px;
+	color: rgb(36, 34, 34);
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.service .circle:hover {
+	border: 2px solid #000;
+	color: #303944;
+	background: #fff;
+}
+.works {
+	margin-top: 15px;
+}
+.works img:hover{
+	opacity: 0.3;
+}
+.team{
+	background: url(../img/bgcontecn.png) center center;
+	padding: 0;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 25px;
+}
+.team h2{
+	text-transform: uppercase;
+	font-family: 'Oswald';
+	font-weight: 700;
+	font-size: 30px;
+	color: #000;
+	margin-top: 70px;
+}
+.team h5{
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 5px;
+}
+.team p{
+	margin-bottom: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.team .cardd{
+	padding: 0;
+	margin-bottom: 50px;
+	width: 270px;
+}
+.team .btn {
+	background: rgba(177, 177, 177, 0.1);
+	color: #fff;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin-bottom: 25px;
+}
+.team .cardd i {
+	color: #fff;
+	font-size: 20px;
+}
+.team .card h5{
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 20px;
+	color: #ffe600;
+}
+.team .card h6{
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 20px;
+	color: #000;
+}
+.animg {
+	
+	margin-top: 15px;
+}
+.animg .carousel-item p {
+	font-family: 'Oswald';
+	font-weight: 400;
+	font-size: 16px;
+	color: #2b3746;
+}
+.animg .carousel-item {
+	height: 270px;
+}
+.animg .carousel-indicators li{
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #000;
+}
+.animg .carousel-indicators li:hover{
+	background: #374197;
+}
+.sponsors .jh {
+	align-self: center;
+}
+.sponsors {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: #f5f5f5;
+}
+.pricetb .rama .btn{
+	border: 1px solid #374197;
+	border-radius: 45%;
+	text-transform: uppercase;
+	background: #515151;
+	color: #f5f5f5;
+}
+.pricetb .rama .btn:hover{
+	background: #f5f5f5;
+	color: #374197
+}
+.pricetb .over{
+	margin-top: 20px;
+}
+.pricetb h6 {
+	font-size: 19px;
+	font-weight: 700;
+	text-transform: uppercase;
+	
+}
+.pricetb .upper h6{
+	padding-top: 20px;
+	border: 5px solid #e2e1e1;
+	margin-top: -5px;
+	padding-bottom: 5px;
+}
+.pricetb .rama{
+	margin-top: 25px;
+}
+.pricetb .rama h3{
+	font-size: 60px;
+	font-weight: 700;
+}
+.pricetb .rama p{
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 400;
+	border-bottom: 1px solid #e2e1e1;
+	padding-bottom: 5px;
+}
+.pricetb .rama .btn {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.pricetb .rama b{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+.pricetb .rama {
+	border: 1px solid #e2e1e1;
+}
+.footer {
+	background: url(../img/bgcontecn.png) center center;
+	padding: 0;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 25px;
+}
+.footer p{
+	color: #fff;
+	margin-bottom: 35px;
+}
+.footer h2{
+	font-family: 'Oswald';
+	font-weight: 700;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.footer .form-control {
+	background: #e2e1e1 !important;
+	color: #fff !important;
+}
+.footer .form-control:focus{
+	border-color: #374197 !important;
+	color: #374197 !important;
+}
+.footer textarea.form-control {
+	height: 215px;
+	margin-bottom: 35px;
+}
+.footer .btn{
+	background: #374197;
+	color: #f5f5f5;
+	text-transform: uppercase;
+	padding: 10px 10px;
+	margin-bottom: 60px;
+	font-family: 'Oswald';
+	font-weight: 700;
+	font-size: 30px;
+}
+.footer .btn:hover{
+	background: #f5f5f5;
+	color: #374197;
+	border: 1px double #374197;
+}
+.down{
+	background: #303944;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #e2e1e1;
+}
+@media (max-width: 993px){
+	.title h1 {
+		font-size: 50px;
+		margin-top: 5px;
+	}
+	.title {
+		top: 50%;
+	}
+	.menu-top .nav-link::after{
+    content: "";
+	display: block;
+	height: 2px;
+	background: #374197;
+	width: 90px;
+	transition: 1s;
+	margin-left: 0;
+	}
+}
+@media (max-width: 767px) {
+	.title h1 {
+		font-size: 45px;
+	}
+
+	.title .btn {
+		padding: 9px 35px;
+		font-size: 15px;
+	}
+
+	.title {
+		top: 51%;
+	}
+}
+
+@media (max-width: 480px) {
+	.title h1 {
+		font-size: 35px;
+	}
+
+	.title .btn {
+		padding: 6px 25px;
+		font-size: 15px;
+	}
+
+	.title {
+		top: 53%;
+	}
+}
