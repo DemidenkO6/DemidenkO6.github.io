@@ -1,0 +1,381 @@
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+	font-family: 'OpenSans';
+	font-weight: 300;
+	font-size: 16px;
+	color: #707070;
+	min-width: 320px;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 30px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-weight: 400;
+	color: #515151;
+	text-transform: uppercase;
+}
+
+hr {
+	background: #17daa3;
+	height: 3px;
+	width: 80px;
+}
+
+.header {
+	background: url(../img/bghead.png) center center;
+	height: 100vh;
+	background-size: cover;
+	position: relative;
+}
+
+.menu-top .nav-link {
+	text-transform: uppercase;
+	color: #fff !important;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.menu-top {
+	background: rgba(1, 1, 2, 0.01);
+}
+.menu-top .nav-item {
+	list-style: disc;
+	color: #17daa3;
+	margin: 0 10px;
+}
+.menu-top i {
+	color: #fff;
+	font-size: 17px;
+	align-self: center;
+}
+.menu-top .nav-link:hover {
+	color: #17daa3 !important;
+}
+.menu-top .nav-link::after{
+	content: "";
+	display: block;
+	height: 3px;
+	background: #17daa3;
+	width: 0;
+	transition: 0.5s;
+	margin: auto;
+}
+.menu-top .nav-link:hover::after{
+	width: 100%;
+}
+.menu-top .nav-item:first-child {
+	list-style: none;
+}
+
+.title h1 {
+	font-weight: 700;
+	font-size: 45px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.title p {
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.title .btn:hover{
+	background: #fbfbfb;
+	color: #17daa3;
+	border: 3px double #17daa3;
+}
+.title .btn {
+	background: rgba(1, 1, 2, 0.01);
+	border: 3px double #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 13px;
+	border-radius: 45%;
+	padding: 5px 15px;
+	color: #fff;
+}
+.carousel-indicators {
+	top: 160px;
+}
+.carousel-indicators li {
+	border-radius: 50%;
+	width: 7px;
+	height: 7px;
+}
+.title {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 40%;
+}
+.about {
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
+.about .circle {
+	width: 105px;
+	height: 105px;
+	background: #edeff1;
+	border-radius: 50%;
+	margin: auto;
+	color: #87949e;
+	text-transform: uppercase;
+}
+.about .circle i {
+	width: 100px !important;
+	font-size: 45px;
+	line-height: 112px;
+}
+.about p {
+	margin-bottom: 30px;
+}
+.about h4{
+	text-transform: uppercase;
+	margin-top: 5px;
+	color: #000;
+	font-size: 19px;
+	font-weight: 700;
+}
+.about .btn:hover{
+	background: #87949e;
+	color: #17daa3;
+	border: 1px solid #131a1d;
+}
+.about .btn {
+	background: #17daa3;
+	color: #fff;
+	border: 1px solid #131a1d;
+	border-radius: 35px;
+}
+.about .circle:hover {
+	border: 1px solid #000;
+	color: #fbfbfb;
+	background: #17daa3;
+}
+.audi {
+	background: rgb(224, 228, 228) ;
+	padding: 20px 20px;
+}
+
+.audi img{
+	border: 3px solid #000;
+	border-radius: 35px;
+}
+.audi h2{
+	font-size: 55px;
+	font-weight: 700;
+	color: #131316;
+}
+.audi .btn{
+	background: #17daa3;
+	color: #fff;
+	border: 1px solid #131a1d;
+	border-radius: 35px;
+}
+.audi .btn:hover{
+	background: #87949e;
+	color: #17daa3;
+	border: 1px solid #131a1d;
+}
+.audi p {
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 200;
+	color: #131316;
+}
+.love {
+	background: rgb(224, 228, 228) ;
+	padding: 20px 20px;
+}
+.love h2{
+	font-size: 55px;
+	font-weight: 700;
+	color: #131316;
+}.love img{
+	border: 3px solid #000;
+	border-radius: 35px;
+}
+.love .btn:hover{
+	background: #87949e;
+	color: #17daa3;
+	border: 1px solid #131a1d;
+}
+.love .btn{
+	background: #17daa3;
+	color: #fff;
+	border: 1px solid #131a1d;
+	border-radius: 35px;
+	margin-top: 15px;
+}
+.love p{
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 200;
+	color: #131316;
+	padding-bottom: 5px;
+	margin-bottom: 4px;
+}
+.otziv {
+	background: url(../img/bgcontenc.png) center center;
+	height: 100vh;
+	background-size: cover;
+	padding-top: 115px;
+}
+.otziv .carousel-item p {
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+}
+.otziv h5{
+	padding-top: 15px;
+	font-size: 17px;
+	font-weight: 700;
+	color: #fff;
+}
+.otziv .Alecto{
+	font-size: 17px;
+	font-weight: 700;
+	color: #17daa3;
+}
+.otziv .carousel-item {
+	height: 270px;
+}
+.otziv .carousel-indicators li{
+	width: 5px;
+	height: 5px;
+	top: 75px;
+}
+.Oservice {
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
+.Oservice .circle {
+	width: 105px;
+	height: 105px;
+	background: #edeff1;
+	border-radius: 50%;
+	margin: auto;
+	color: #87949e;
+	text-transform: uppercase;
+}
+.Oservice .circle i {
+	width: 100px !important;
+	font-size: 45px;
+	line-height: 112px;
+}
+.Oservice p {
+	margin-bottom: 30px;
+}
+.Oservice h4{
+	text-transform: uppercase;
+	margin-top: 5px;
+	color: #000;
+	font-size: 19px;
+	font-weight: 700;
+}
+.Oservice .btn:hover{
+	background: #87949e;
+	color: #17daa3;
+	border: 1px solid #131a1d;
+}
+.Oservice .btn {
+	background: #17daa3;
+	color: #fff;
+	border: 1px solid #131a1d;
+	border-radius: 35px;
+}
+.Oservice .circle:hover {
+	border: 1px solid #000;
+	color: #fbfbfb;
+	background: #17daa3;
+}
+.map {
+	background: #f7fafc;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.map h2 {
+	font-size: 45px;
+	font-weight: 700;
+	color: #131316;
+}
+.map p {
+	font-size: 15px;
+	font-weight: 700;
+	color: #131316;
+	
+}
+.map .btn{
+	background: #17daa3;
+	color: #fff;
+	border: 1px solid #131a1d;
+	border-radius: 35px;
+	margin-top: 25px;
+}
+.map .btn:hover{
+	background: #87949e;
+	color: #17daa3;
+	border: 1px solid #131a1d;
+}
+.footer{
+	background: url(../img/sectiondownbg.png) center center;
+	height: 100vh;
+	background-size: cover;
+	color: #ffff;
+	position: relative;
+}
+.footer .span{
+	color: #17daa3;
+	font-size: 75px;
+}
+.footer h2 {
+	position: absolute;
+	font-size: 70px;
+	font-weight: 700;
+	top: 215px;
+	left: 360px;
+}
+@media (max-width: 993px) {
+	
+	.menu-top .nav-item:first-child {
+		list-style: square;
+	}
+}
+@media (max-width: 769px) {
+	.title h1 {
+		font-size: 45px;
+	}
+
+	.title .btn {
+		padding: 9px 35px;
+		font-size: 15px;
+	}
+
+	.title {
+		top: 51%;
+	}
+}
+
+@media (max-width: 482px) {
+	.title h1 {
+		font-size: 35px;
+	}
+
+	.title .btn {
+		padding: 6px 25px;
+		font-size: 15px;
+	}
+
+	.title {
+		top: 53%;
+	}
+}
